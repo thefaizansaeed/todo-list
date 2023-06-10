@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+box-sizing: border-box;
+
+}
+
+.to-do{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    /* padding: 20px; */
+}
+
+.to-do h1{
+    color: whitesmoke;
+    font-size: 2rem;
+    /* text-align: le; */
+
+}
+
+.input-container{
+    display: flex;
+    justify-content: right;
+/*    
+    border: 1px solid black; */
+    width: 350px;
+}
+
+#user-input{
+    border: none;
+    border-radius: 2px 0 0 2px;
+    padding: 6px;
+
+}
+
+input{
+    width: 80%;
+
+}
+
+
+input:focus{
+    outline: #bb0a0d;
+
+}
+
+#submit-button{
+padding: 10px;
+background-color: #d3d3d3;
+border: #f0f0f0;
+border-radius: 0 2px 2px 0;
+cursor: pointer;
+}
+
+#submit-button :hover{
+    padding: 10px;
+    border: #f0f0f0;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    }
+
+.input-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+margin: auto;
+}
+
+.card-div{
+    background-color: whitesmoke;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.new-card{
+    /* border: 1px solid black; */
+    background-color: whitesmoke;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.features{
+    color: #a9a9a9;
+    display: flex;
+    margin: 20px;
+}
+
+i{
+padding-inline: 5px;
+
+
+}
